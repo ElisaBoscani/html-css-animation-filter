@@ -128,3 +128,31 @@
     transform: rotate(273deg);
   }
 }
+/* esrcizio 11 */
+
+.ex-12-top-white {
+  animation: spazio 2s;
+}
+.ex-12-bottom-white {
+  animation: spazio_2 2s;
+}
+@keyframes spazio {
+  0% {
+    left: 10%;
+    top: -10px;
+  }
+  100% {
+    left: 0;
+    top: -10px;
+  }
+}
+@keyframes spazio_2 {
+  0% {
+    bottom: -10px;
+    right: 20%;
+  }
+  100% {
+    right: 0;
+    top: -10px;
+  }
+}
