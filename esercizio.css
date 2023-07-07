@@ -9,14 +9,12 @@
 /* esercizion 2 */
 
 .ex-2-square {
-  transition-property: width;
-  transition-duration: 2s;
-  transition-timing-function: linear;
-  transition-delay: 0.5s;
+  transition: 2s;
 }
-.ex-2-square:hover {
+.ex-2-square:active {
   width: 15.625rem;
 }
+
 /* esercizio 3 */
 
 .ex-3-square {
@@ -40,4 +38,22 @@
     width: 0;
     height: 0;
   }
+}
+/* esrcizio 5 */
+
+.ex-5-square {
+  transition: 2s;
+}
+.ex-5-square:hover {
+  width: 9.375rem;
+  height: 9.375rem;
+}
+.ex-5-square:active {
+  width: 6.25rem;
+  height: 6.25rem;
+}
+/* esercizio 6 */
+
+.ex-6-img:hover {
+  filter: grayscale(100%);
 }
