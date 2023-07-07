@@ -115,3 +115,16 @@
     transform: rotate(360deg);
   }
 }
+/* esercizio 11 */
+.ex-11-icon {
+  animation: trequarti 5s linear;
+}
+
+@keyframes trequarti {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(273deg);
+  }
+}
