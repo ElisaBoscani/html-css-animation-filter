@@ -85,3 +85,19 @@
     border-radius: 20px;
   }
 }
+
+/* esercizio 9 */
+
+.ex-9-img {
+  /* animation: esercizio;
+  animation-duration: 6s; */
+  transition: 3s;
+}
+.ex-9-img:hover {
+  transform: scale(1.2);
+  border-radius: 30px;
+}
+.ex-9-img:hover {
+  filter: grayscale(100%);
+  filter: hue-rotate(90deg);
+}
