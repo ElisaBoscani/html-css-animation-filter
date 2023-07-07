@@ -25,3 +25,19 @@
 .ex-3-square:hover {
   border-radius: 50%;
 }
+/* esercizio 4 */
+
+.ex-4-square {
+  animation: scompare;
+  animation-duration: 4s;
+}
+@keyframes scompare {
+  from {
+    width: 100px;
+    height: 100px;
+  }
+  to {
+    width: 0;
+    height: 0;
+  }
+}
