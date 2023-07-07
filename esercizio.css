@@ -101,3 +101,17 @@
   filter: grayscale(100%);
   filter: hue-rotate(90deg);
 }
+/* esercizio 10 */
+
+.ex-10-icon {
+  animation: ruotare 5s linear infinite;
+}
+
+@keyframes ruotare {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
