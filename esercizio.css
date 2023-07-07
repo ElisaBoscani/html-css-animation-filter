@@ -57,3 +57,31 @@
 .ex-6-img:hover {
   filter: grayscale(100%);
 }
+/* esercizio 7 */
+.ex-7-img {
+  transition: 2s;
+}
+.ex-7-img:hover {
+  filter: blur(20px);
+  filter: invert(60%);
+}
+/* esercizio 8 */
+
+.ex-8-img {
+  animation: animazioni;
+  animation-duration: 6s;
+}
+.ex-8-img:hover {
+  opacity: 0.5;
+}
+
+@keyframes animazioni {
+  from {
+    filter: contrast(0);
+    border-radius: 0;
+  }
+  to {
+    filter: contrast(70%);
+    border-radius: 20px;
+  }
+}
