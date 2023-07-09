@@ -131,10 +131,10 @@
 /* esrcizio 11 */
 
 .ex-12-top-white {
-  animation: spazio 2s;
+  animation: spazio 2s linear;
 }
 .ex-12-bottom-white {
-  animation: spazio_2 2s;
+  animation: spazio_2 2s linear;
 }
 @keyframes spazio {
   0% {
@@ -142,7 +142,7 @@
     top: -10px;
   }
   100% {
-    left: 0;
+    left: 30%;
     top: -10px;
   }
 }
@@ -152,7 +152,61 @@
     right: 20%;
   }
   100% {
-    right: 0;
+    bottom: -10px;
+    right: 40%;
+  }
+}
+/* esercizio 13 */
+.ex-13-top-white {
+  animation: ruotare_1 2s linear;
+}
+.ex-13-bottom-white {
+  animation: ruotare_2 2s linear reverse;
+}
+
+@keyframes ruotare_1 {
+  0% {
+    left: 10%;
     top: -10px;
+  }
+  25% {
+    left: 100%;
+    top: -10px;
+  }
+  50% {
+    left: 100%;
+    top: 65px;
+  }
+  75% {
+    left: -4%;
+    top: 44px;
+    bottom: -10px;
+  }
+  100% {
+    left: 10%;
+    top: -10px;
+  }
+}
+
+@keyframes ruotare_2 {
+  0% {
+    bottom: -10px;
+    right: 20%;
+  }
+  25% {
+    bottom: 0;
+    right: 80%;
+  }
+  50% {
+    top: -20px;
+    right: 80%;
+  }
+  75% {
+    top: -20px;
+    right: 0%;
+  }
+  100% {
+    bottom: -10px;
+    right: 20%;
   }
 }
